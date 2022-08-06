@@ -1,0 +1,12 @@
+[package]
+name = "tezos-vanity-address"
+authors = [ "Benjamin Herman <benjamin@metanomial.com>" ]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bs58 = { version = "0.4.0", features = ["check"] }
+clap = { version = "3.2.16", features = ["derive"] }
+dryoc = "0.3.13"
+tiny-bip39 = "1.0.0"
+tiny-hderive = "0.3.0"
